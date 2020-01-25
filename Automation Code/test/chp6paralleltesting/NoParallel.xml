@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Run">
+  <test name="Test 1">
+     <classes>
+      <class name = "test.chp6paralleltesting.ParallelTestRun_A"/>
+      <class name = "test.chp6paralleltesting.ParallelTestRun_B"/>
+    </classes>
+  </test> 
+  
+   <test name="Test 2">
+     <classes>
+      <class name = "test.chp6paralleltesting.ParallelTestRun_C"/>
+      <class name = "test.chp6paralleltesting.ParallelTestRun_D"/>
+    </classes>
+  </test> 
+  
+  <test name="Test 3">
+     <classes>
+      <class name = "test.chp6paralleltesting.ParallelTestRun_E"/>
+    </classes>
+  </test> 
+</suite> <!-- Parallel Test Run -->
